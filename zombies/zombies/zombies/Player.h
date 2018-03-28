@@ -1,13 +1,13 @@
+#include "stdafx.h"
 #include<SFML/Graphics.hpp>
-
 
 using namespace sf;
 
 class Player{
 
 private:
-	const float START_SPEED = 200;
-	const float START_HEALTH = 100;
+	static const int START_SPEED = 200;
+	static const int START_HEALTH = 100;
 
 	//location of the player
 	Vector2f m_position;
